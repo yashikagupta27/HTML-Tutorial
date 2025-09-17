@@ -1,0 +1,71 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+        <h2>Job Application</h2>
+        <label for="name">Name:</label>
+        <br/><br/>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br/><br/>
+        <label for="email">Email ID:</label>
+        <br/><br/>
+        <input type="email" name="email" id="email" placeholder="Enter your email">
+        <br/><br/>
+        <label for="phone">Phone No.:</label>
+        <br/><br/>
+        <input type="tel" name="phone" id="phone">
+        <br/><br/>
+        <label for="resume">Resume:</label>
+        <br/><br/>
+        <input type="file" name="file" id="Resume" value="Choose file">
+        <br/><br/>
+        <label for="experience">Experience(in years):</label>
+        <br/><br/>
+        <input type="number" name="experience" id="experience" min="0" max="50">
+        <fieldset>
+            <legend>Skills:</legend>
+            <input type="checkbox" name="html" id="html">
+            <br/>
+            <label for="html">HTML</label>
+            <br/>
+            <input type="checkbox" name="css" id="css">
+            <br/>
+            <label for="css">CSS</label>
+            <br/>
+            <input type="checkbox" name="js" id="js">
+            <br/>
+            <label for="js">JavaScript</label>
+            <br/>
+        </fieldset>
+        <label for="education">Highest Education:</label>
+        <br/><br/>
+        <select name="education" id="education">
+             <option value="high school">High School</option>
+             <option value="secondary school">Secondary School></option>
+             <option value="graduation">Graduation</option> 
+             <option value="post graduation">Post Graduation</option>
+        </select>
+        <br/><br/>
+
+        <fieldset>
+        <label>Availability:</label>
+        <br/>
+        <input type="radio" id="radio1" name="radio">
+        <label for="radio1">Full-time</label>
+        <br/>
+        <input type="radio" id="radio2" name="radio">
+        <label for="radio2">Part-time</label>
+        <br/>
+        </fieldset>
+        <label for="comment">Additional Comment:</label>
+        <br/>
+        <textarea name="comment" id="comment" cols="40" rows="3"></textarea>
+        <input type="submit" value="Submit Application">
+    </form>
+  </body>
+  </html>
